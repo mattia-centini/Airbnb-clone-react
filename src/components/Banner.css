@@ -1,0 +1,6 @@
+.banner {
+  height: 50vh;
+  position: relative;
+  background: url(https://cdn.pixabay.com/photo/2014/07/31/21/41/apartment-406901_1280.jpg)
+    center center;
+}
