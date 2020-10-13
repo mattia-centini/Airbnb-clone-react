@@ -32,3 +32,33 @@
   top: 20px;
   right: 40px;
 }
+
+.searchResult__infoTop {
+  width: 40vw;
+}
+
+.searchResult__infoTop > h3 {
+  font-weight: 30px;
+  text-transform: inherit;
+  margin: 5px;
+}
+
+.searchResult__infoTop > p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: gray;
+}
+
+.searchResult__infoBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchResult__star {
+  color: red;
+}
+
+.searchResult__stars {
+  display: flex;
+  align-items: center;
+}
