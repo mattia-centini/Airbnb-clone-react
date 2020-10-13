@@ -62,3 +62,13 @@
   display: flex;
   align-items: center;
 }
+
+.searchResult__price > p {
+  text-align: right;
+}
+
+.searchResult__price {
+  position: absolute;
+  bottom: 0px;
+  right: 30px;
+}
