@@ -1,5 +1,5 @@
-import { FavoriteBorderIcon } from "@material-ui/icons";
-import { StarIcon } from "@material-ui/icons";
+import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
+import StarIcon from "@material-ui/icons/Star";
 import React from "react";
 import "./SearchResult.css";
 
@@ -13,7 +13,7 @@ function SearchResult({
   total,
 }) {
   return (
-    <div className="SearchResult">
+    <div className="searchResult">
       <img src={img} alt="" />
       <FavoriteBorderIcon className="searchResult__heart" />
       <div className="searchResult__info">

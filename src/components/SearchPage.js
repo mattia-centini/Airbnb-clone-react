@@ -16,8 +16,17 @@ function SearchPage() {
         <Button variant="outlined">More Filters</Button>
       </div>
       <SearchResult
-        img="https://images.unsplash.com/photo-1559599189-fe84dea4eb79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
-        location="privste room in the centre of London"
+        img="https://images.unsplash.com/photo-1565464913019-a85f0a1df0e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+        location="private room in the centre of London"
+        title="Stay at this spacious Edwardian house"
+        description=" 1 guest - 1 bed - 1.5 shared bathrooms - wifi - kitchen"
+        star={4.7}
+        price="£30 / night"
+        total="£117 total"
+      />
+      <SearchResult
+        img="https://images.unsplash.com/photo-1565464913019-a85f0a1df0e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+        location="private room in the centre of London"
         title="Stay at this spacious Edwardian house"
         description=" 1 guest - 1 bed - 1.5 shared bathrooms - wifi - kitchen"
         star={4.7}
